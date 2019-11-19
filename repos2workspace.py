@@ -26,7 +26,6 @@ def repos2workspace(repos_file, workspace_file):
             "git.alwaysSignOff": True,
             "git.ignoredRepositories": [str(repos_file.parent.absolute())],
             "git.scanRepositories": paths,
-            "ros.distro": "melodic",
             "python.autoComplete.extraPaths": [
                 "/opt/ros/melodic/lib/python2.7/dist-packages"
             ],
